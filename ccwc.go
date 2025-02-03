@@ -70,6 +70,7 @@ func main() {
 
 	var contents []byte
 
+	// if there is a file provided by the parameter
 	if !isStdIn {
 		cont, err := io.ReadAll(file)
 
@@ -103,6 +104,7 @@ func main() {
 	if *m {
 		output = output + generateOutput("characters", contents, isStdIn)
 	}
+
 	output = output + "   " + filePath
 	fmt.Println(output)
 }

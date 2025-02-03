@@ -15,3 +15,5 @@ To run locally:
     - `-w`: Words of text in the file
     - `-m`: Characters in a file
     - `-l`: Lines in a file 
+5. You can also build and install the package locally. If you wish to do so, follow the instructions here: https://go.dev/doc/tutorial/compile-install
+6. You can then run like `ccwc -w test.txt`

@@ -17,3 +17,5 @@ To run locally:
     - `-l`: Lines in a file 
 5. You can also build and install the package locally. If you wish to do so, follow the instructions here: https://go.dev/doc/tutorial/compile-install
 6. You can then run like `ccwc -w test.txt`
+
+<img width="1032" alt="Image" src="https://github.com/user-attachments/assets/ef76352a-f66c-4ab7-b835-629fdaa5a163" />
